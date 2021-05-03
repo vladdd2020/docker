@@ -1,5 +1,4 @@
-
-WordPress Project Template is tooked from[ justcoded ](https://github.com/justcoded/wordpress-starter) for my own test purposes.
+WordPress Project Template is taken from[ justcoded ](https://github.com/justcoded/wordpress-starter) for my own test purposes.
 
 ORIGIN IS >>[HERE](https://github.com/justcoded/wordpress-starter)<<
 Also there is a full installation instruction and project overview.
