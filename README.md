@@ -1,72 +1,35 @@
-<p align="center">
-    <a href="https://wordpress.org" target="_blank">
-        <img src="https://s.w.org/about/images/logos/wordpress-logo-notext-rgb.png" height="100px">
-    </a>
-    <h1 align="center">WordPress Project Template by JustCoded</h1>
-    <br>
-</p>
 
-WordPress Project Template is a skeleton [WordPress](https://wordpress.org/) site with modern 
-development tools, easier configuration, improved folder structure and latest security best practices.
+WordPress Project Template is tooked from[ justcoded ](https://github.com/justcoded/wordpress-starter) for my own test purposes.
 
-## Better project structure
+ORIGIN IS >>[HERE](https://github.com/justcoded/wordpress-starter)<<
+Also there is a full installation instruction and project overview.
 
-The organization of skeleton is similar to putting WordPress core files in its own subdirectory, 
-`wp-content` stays the same. 
 
-![File structure](https://github.com/justcoded/wordpress-starter/wiki/assets/20171201-wp-starter-structure1.png)
-
-## Dependency management with Composer
-
-Manage your WordPress install and plugins with [Composer](http://getcomposer.org), 
-a PHP dependency manager. Composer will make development more reliable, help with team collaboration, 
-and it helps maintain a better Git repository.
-
-## Easy WordPress configuration
+## Quick start
 
 Environment specific configuration files and environment variables with Dotenv.
 
-## Enhanced security
-
-* Deny access to non-web files with server directives (with `.htaccess` files).
-* Deny PHP scripts execution inside `wp-content/uploads` folder.
-* Deny browsing the directory files list.
-* Production & Staging environments have a restriction to update files from admin panel (only Media is allowed).
-* Command-line scripts for generating wp-admin HTTP Authorization files.  
-
-**[<< READ MORE >>](https://github.com/justcoded/wordpress-starter/wiki)**
-
-**************************
-
-# Quick start
-
-## Requirements
-
-* PHP >= 7.0
-* Composer - [Install](https://getcomposer.org/doc/00-intro.md#installation-linux-unix-osx) | [Download](https://getcomposer.org/download/)
-
 ## Installation
 
-1. Create a new project in a new folder for your site:
+1. Clone repo:
 
-  `composer create-project justcoded/wordpress-starter your-project-folder-name`
+  `git clone https://github.com/vladdd2020/docker.git`
 
 2. Set important environment variables in `.env`  file:
   * `DB_NAME` - Database name
   * `DB_USER` - Database user
   * `DB_PASSWORD` - Database password
   * `DB_HOST` - Database host
-  * `WP_HOME` - Full URL to WordPress home (http://example.com)
+  * `WP_HOME` - Full URL to WordPress home (http://localhost)
 
-3. Run WordPress install as usual by accessing your site at `http://example.com/`
+3. Run docker compose up command.
 
-4. Enjoy!
+4. Run WordPress install as usual by accessing your site at `http://localhost/`
+
+5. Also you need to run composer install for local dev purposes(to install all requirements).
+
 
 ## Composer helpers
 
 * `composer wp:theme` generate new theme based on our [Theme Boilerplate](https://github.com/justcoded/wordpress-theme-boilerplate)
 * `composer wp:secure` generate new HTTP password for wp-admin folder
-
-## Contributing
-
-Contributions are welcome from everyone.
