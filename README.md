@@ -3,6 +3,12 @@ WordPress Project Template is taken from[ justcoded ](https://github.com/justcod
 ORIGIN IS >>[HERE](https://github.com/justcoded/wordpress-starter)<<
 Also there is a full installation instruction and project overview.
 
+## Overview
+
+This is my demo project.
+I took wordpress app and put it into docker.
+This app can be run via docker on the localhost.
+In the future I'm planning to merge this project with my another [ terraform-k8s ](https://github.com/vladdd2020/terraform-k8s) project.
 
 ## Quick start
 
